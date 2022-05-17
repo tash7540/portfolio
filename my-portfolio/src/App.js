@@ -4,6 +4,7 @@ import Contact from './components/Contact.js';
 import Navbar from './components/Navbar.js';
 import Work from './components/Work.js';
 import Education from './components/Education.js';
+import logo from './logo1.jpg';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path = '/work' element ={<Work/>}/>
           <Route path = '/education' element ={<Education/>}/>
         </Routes>
+
       </div>
     </Router>
   );

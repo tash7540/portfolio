@@ -1,32 +1,42 @@
 .App {
-
   text-align: center;
+  background: url(https://bootstrapious.com/i/snippets/sn-bg-image/bg.jpg);
+  color:white;
+
 }
 nav{
   display:flex;
   justify-content: space-between;
-  align-items: center;
-  flex-direction: row-reverse;
   min-height: 10vh;
-  background-color: red;
+  background: url(https://bootstrapious.com/i/snippets/sn-bg-image/bg.jpg);
+  font-size: calc(14px + 1vmin);
+}
+li{
+  font-weight: bolder;
+  text-decoration: none;
   color:white;
+
+
 }
 .nav-link{
-  width: 30%;
+  width: 40%;
   display :flex;
-  margin: 20px;
   margin-right: 50px;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  text-decoration: none;
+
 }
-img {
-  width: 100px;
-  height: 100px;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin:20px;
+  margin-left:50px;
+  border-radius: 50px;
+  width: 70px;
+  height:70px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -57,4 +67,8 @@ img {
   to {
     transform: rotate(360deg);
   }
+}
+.my-name{
+  font-size: calc(40px + 1vmin);
+
 }
