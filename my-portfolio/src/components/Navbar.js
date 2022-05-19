@@ -1,11 +1,14 @@
 import '../App.css';
 import {Link} from 'react-router-dom';
 import logo from '../mylogo.PNG';
+import logo1 from '../IMG_E3395.JPG';
+
 function Navbar() {
   return (
     <nav>
-      <img className='App-logo' src={logo} alt="logo" ></img>
-
+      <Link to='/'>
+        <img className='logo' src={logo1} alt="logo" />
+      </Link>
       <ul className='nav-link'>
 
         <Link to='/about' style={{ textDecoration: 'none' }}>
