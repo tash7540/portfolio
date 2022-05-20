@@ -1,14 +1,11 @@
 import About from './components/About.js';
 import Skills from './components/Skills.js';
-import Contact from './components/Contact.js';
-import NavbarComp from './components/NavbarComp.js';
+import Contact from './components/Contact/Contact.js';
+import NavbarComp from './components/Navbar/NavbarComp.js';
 import Work from './components/Work.js';
 import Education from './components/Education.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,Row,Col,Form,Card,Button} from 'react-bootstrap';
-import logo from './logo1.jpg';
-
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css';

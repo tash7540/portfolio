@@ -1,15 +1,14 @@
-import '../App.css';
 import {Link} from 'react-router-dom';
-import logo from '../mylogo.PNG';
-import logo1 from '../IMG_E3395.JPG';
-import {Container,Row,Col,Form,Card,Button,Navbar,Nav} from 'react-bootstrap';
+import logo from '../../img/IMG_E3395.JPG';
+import {Container,Navbar,Nav} from 'react-bootstrap';
+import './styles.css';
 
 function NavbarComp() {
   return (
       <Navbar collapseOnSelect expand ='sm' bg ='dark' variant = 'dark'>
       <Container>
           <Link to='/'>
-            <img className='logo' src={logo1} alt="logo" />
+            <img className='logo' src={logo} alt="logo" />
           </Link>
           <div className ='nav-links'>
           <Navbar.Toggle aria-controls='responsive-navbar-nav'/>

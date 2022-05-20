@@ -1,0 +1,24 @@
+nav{
+  background: url(https://bootstrapious.com/i/snippets/sn-bg-image/bg.jpg);
+  margin-bottom: 60px;
+}
+.logo {
+  pointer-events: none;
+  margin:30px;
+  border-radius: 60px;
+  width: 70px;
+  height:70px;
+}
+
+.nav-links{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-link{
+  color:white;
+  font-size: calc(16px + 1vmin);
+  margin-left:6px;
+  margin-right:6px;
+  font-weight: bolder;
+}

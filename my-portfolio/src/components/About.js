@@ -1,5 +1,6 @@
-import myImg from '../IMG_E3395.JPG';
 import {Link} from 'react-router-dom';
+import '../App.css';
+
 function About() {
   return (
     <div>
@@ -8,7 +9,7 @@ function About() {
       <h1> I just graduated from the University of Colorado at Boulder with a Bachelor of Science in Computer Science.</h1>
       <div>
         <Link to={'/contact'}>
-          <button type="button">Contact Me!</button>
+          <button type="button"className = 'button'>Contact Me!</button>
           </Link>
       </div>
     </div>
