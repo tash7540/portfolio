@@ -1,10 +1,13 @@
 import About from './components/About.js';
 import Skills from './components/Skills.js';
 import Contact from './components/Contact.js';
-import Navbar from './components/Navbar.js';
+import NavbarComp from './components/NavbarComp.js';
 import Work from './components/Work.js';
 import Education from './components/Education.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Container,Row,Col,Form,Card,Button} from 'react-bootstrap';
 import logo from './logo1.jpg';
+
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -14,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <Navbar/>
+        <NavbarComp/>
         <Routes>
         <Route path = '/' element ={<About/>}/>
           <Route path = '/about' element ={<About/>}/>
