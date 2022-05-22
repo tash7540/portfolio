@@ -15,8 +15,8 @@ function NavbarComp() {
           <Navbar.Collapse id ='responsive-navbar-nav'>
             <Nav>
               <Nav.Link className='nav-link' href ='/'></Nav.Link>
+              <Nav.Link className='nav-link' href ='/home'>Home</Nav.Link>
               <Nav.Link  className='nav-link' href ='/about'>About</Nav.Link>
-              <Nav.Link className='nav-link' href ='/skills'>Skills</Nav.Link>
               <Nav.Link  className='nav-link' href ='/work'>Work-Experience</Nav.Link>
               <Nav.Link className='nav-link' href ='/education'>Education</Nav.Link>
               <Nav.Link className='nav-link' href ='/contact'>Contact</Nav.Link>

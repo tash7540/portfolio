@@ -22,22 +22,23 @@ function ContactForm() {
     <div>
       <h1>Send me a Message</h1>
       <Form className='Form-style' onSubmit={handleSubmit}>
-          <Form.Group className = 'Form-group'>
-            <Form.Control className='input-sm' type='text' placeholder='Name' value={postData.name}  onChange={(e) => setPostData({ ...postData, name: e.target.value })}></Form.Control>
+        <div className='form-name-email'>
+          <Form.Group className = 'Form-group-name'>
+            <Form.Control className='input-lg' type='text' placeholder='Name' value={postData.name}  onChange={(e) => setPostData({ ...postData, name: e.target.value })}></Form.Control>
           </Form.Group>
 
-          <Form.Group className = 'Form-group'>
-            <Form.Control className='input-sm' type='email' placeholder='Example@email.com'value={postData.email}  onChange={(e) => setPostData({ ...postData, email: e.target.value })}></Form.Control>
+          <Form.Group className = 'Form-group-email'>
+            <Form.Control className='input-lg' type='email' placeholder='Example@email.com'value={postData.email}  onChange={(e) => setPostData({ ...postData, email: e.target.value })}></Form.Control>
           </Form.Group>
-
+        </div>
           <Form.Group className = 'Form-group's>
-            <Form.Control className='input-sm' type='text' placeholder='Subject'value={postData.subject}  onChange={(e) => setPostData({ ...postData, subject: e.target.value })}></Form.Control>
+            <Form.Control className='input-lg' type='text' placeholder='Subject'value={postData.subject}  onChange={(e) => setPostData({ ...postData, subject: e.target.value })}></Form.Control>
           </Form.Group>
 
           <Form.Group className = 'Form-group-text'>
             <Form.Control className=' Form-group-text input-lg' as="textarea"placeholder='Your Message' rows={3} value={postData.message} onChange={(e) => setPostData({ ...postData, message: e.target.value })}></Form.Control>
           </Form.Group>
-          <Button className='button' type='submit'>Send</Button>
+          <Button className='button-form' type='submit'>Send</Button>
       </Form>
     </div>
   );

@@ -1,11 +1,12 @@
 /* Medium Screens min width 641px change to 4 columns */
-@media screen and (min-width: 641px) {
-  .skillsGrid{
+.skillsGrid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     grid-auto-rows: auto;
     height: auto;
+    background-color: inherit;
+
   }
 .skillsGrid img {
   height: 100px;
@@ -24,4 +25,22 @@
   font-size: calc(15px + 1vmin);
 margin-bottom:50px;
 }
+.page-title{
+  font-size: calc(60px + 1vmin);
+}
+
+
+.test{
+  color:black;
+  font-size: calc(15px + 1vmin);
+
+}
+.about-h1{
+  font-size: calc(15px + 1vmin);
+  text-align: left !important;
+
+}
+.about-div{
+  margin:50px;
+  margin-bottom:200px;
 }

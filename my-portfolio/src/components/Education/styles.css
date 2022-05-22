@@ -1,0 +1,30 @@
+.page-title{
+  font-size: calc(60px + 1vmin);
+}
+.education-uni{
+  display:flex;
+  font-size: 30px;
+  margin-top:40px;
+}
+.education-degree{
+  display:flex;
+  font-size: 25px;
+}
+
+.education-li{
+  display:flex;
+  float:left;
+  justify-content:space-around;
+  flex-direction:row-reverse;
+  font-size: 22px;
+  margin-left:80px;
+  margin-right:90px;
+
+}
+.footer{
+  margin-bottom:100px;
+}
+.asd{
+  display:flex;
+  flex-direction:row-reverse;
+}

@@ -7,7 +7,8 @@ function Contact() {
 
   return (
     <Container>
-      <Row>
+      <h1>Interested in working together?</h1>
+      <Row style={{marginTop:80}}>
         <Col>
           <ContactForm/>
         </Col>

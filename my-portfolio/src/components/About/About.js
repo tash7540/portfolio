@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import '../../App.css';
+import './styles.css';
 import {Container,Row,Col,Button} from 'react-bootstrap';
 import Skills from './Skills/skills.js';
 function About() {
@@ -9,7 +9,7 @@ function About() {
       <Row>
         <div>
 
-          <h3 className="my-name">Who Am I?</h3>
+          <h3 className="page-title">Who Am I?</h3>
         </div>
       </Row>
       <Row>

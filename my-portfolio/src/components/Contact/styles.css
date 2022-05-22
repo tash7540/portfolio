@@ -1,8 +1,27 @@
+
 .Form-style{
   display:flex;
-  justify-content: space-around;
+  justify-content:space-around;
+  align-items:center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.form-name-email{
+  display:flex;
+
+}
+.Form-group-name{
+  width:190px;
+  height:20px;
+  margin :20px;
+  margin-right:10px;
+
+}
+.Form-group-email{
+  width:290px;
+  height:20px;
+  margin :20px;
+  margin-left:10px;
 }
 .Form-group{
   width:500px;
@@ -16,18 +35,19 @@
   margin-bottom:20px;
 
 
+
 }
 .button-form {
     color:#000000 !important;
     background-color: #FFFF !important;
     border-color:#000000 !important;
-    border-radius:10px;
+    border-radius:50px !important;
     padding:15px;
-    min-height:30px;
-    min-width: 120px;
+    min-height:55px !important;
+    min-width: 140px !important;
     align-items: center;
-    margin-right:50px;
-    margin-left:50px;
+    margin-right:160px;
+    margin-left:160px;
 
     margin-top:30px;
     margin-bottom:150px;

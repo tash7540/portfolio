@@ -3,6 +3,7 @@
   float:left;
 }
 .home-hello{
+  margin-top:40px;
   font-size: calc(80px + 1vmin);
 }
 .home-name{
@@ -15,9 +16,9 @@
     color:#000000 !important;
     background-color: #FFFF !important;
     border-color:#000000 !important;
-    border-radius:10px;
+    border-radius:40px !important;
     padding:15px;
-    min-height:50px;
+    min-height:70px;
     min-width: 160px;
     align-items: center;
     margin-right:50px;
