@@ -2,3 +2,25 @@ page-title{
   font-size: calc(60px + 1vmin);
 
 }
+.work-div{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-size: 30px;
+
+}
+.job-title{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-size: 25px;
+  margin-left:130px;
+
+}
+.logo {
+  display: flex;
+  pointer-events: none;
+  margin:30px;
+  width: 70px;
+  height:70px;
+}

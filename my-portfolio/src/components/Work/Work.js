@@ -1,5 +1,8 @@
 import {Container,Row,Col} from 'react-bootstrap';
 import './styles.css';
+import cuLogo from '../../img/cu-logo.jfif';
+import nsfLogo from '../../img/nsf-logo.jfif';
+import {Link} from 'react-router-dom';
 
 function Work() {
   return (
@@ -7,10 +10,14 @@ function Work() {
       <Row>
         <h1>Work Experience</h1>
 
-        <div>
+        <div className='work-div'>
+        <a href="https://www.colorado.edu/research/ai-institute/">
+
+          <img className='logo' src={nsfLogo} alt="NSFlogo" />
+        </a>
           <h1 className='education-uni'>National Science Foundation - Institute for Student-AI Teaming</h1>
-          <h1 className='education-degree'> Junior Software Developer</h1>
         </div>
+        <h1 className='job-title'> Junior Software Developer</h1>
 
       </Row>
       <Row>
@@ -25,10 +32,14 @@ function Work() {
         </div>
         </Col>
       </Row>
-      <div>
+      <div className='work-div'>
+      <a href="https://www.colorado.edu/">
+        <img className='logo' src={cuLogo} alt="CUlogo" />
+      </a>
         <h1 className='education-uni'>University of Colorado at Boulder</h1>
-        <h1 className='education-degree'> Research Assistant (Information Science Department)</h1>
       </div>
+      <h1 className='education-degree'> Research Assistant (Information Science Department)</h1>
+
       <Row>
       <Col>
         <div>

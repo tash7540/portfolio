@@ -9,6 +9,8 @@
 .education-degree{
   display:flex;
   font-size: 25px;
+  margin-left:130px;
+  margin-bottom:30px;
 }
 
 .education-li{
@@ -24,7 +26,19 @@
 .footer{
   margin-bottom:100px;
 }
-.asd{
+.courses{
   display:flex;
-  flex-direction:row-reverse;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.logo {
+  display: flex;
+  pointer-events: none;
+  margin:30px;
+  width: 70px;
+  height:70px;
+}
+.education-div{
+  display: flex;
+
 }
