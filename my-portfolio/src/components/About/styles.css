@@ -1,0 +1,27 @@
+/* Medium Screens min width 641px change to 4 columns */
+@media screen and (min-width: 641px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+.skillsGrid img {
+  height: 100px;
+  width: 100px;
+}
+.skills{
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  margin:50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.skills-h1{
+  font-size: calc(15px + 1vmin);
+margin-bottom:50px;
+}
+}

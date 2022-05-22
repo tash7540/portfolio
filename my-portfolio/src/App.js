@@ -1,4 +1,5 @@
-import About from './components/About.js';
+import Home from './components/Home/Home.js';
+import About from './components/About/About.js';
 import Skills from './components/Skills.js';
 import Contact from './components/Contact/Contact.js';
 import NavbarComp from './components/Navbar/NavbarComp.js';
@@ -16,7 +17,7 @@ function App() {
       <div className='App'>
         <NavbarComp/>
         <Routes>
-        <Route path = '/' element ={<About/>}/>
+        <Route path = '/' element ={<Home/>}/>
           <Route path = '/about' element ={<About/>}/>
           <Route path = '/skills' element ={<Skills/>}/>
           <Route path = '/contact' element ={<Contact/>}/>

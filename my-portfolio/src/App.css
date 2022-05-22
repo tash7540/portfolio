@@ -7,8 +7,23 @@
 
 
 .my-name{
-  font-size: calc(40px + 1vmin);
+  font-size: calc(60px + 1vmin);
+}
 
+
+.test{
+  color:black;
+  font-size: calc(15px + 1vmin);
+
+}
+.about-h1{
+  font-size: calc(15px + 1vmin);
+  text-align: left !important;
+
+}
+.about-div{
+  margin:50px;
+  margin-bottom:200px;
 }
 .button {
     color:#000000 !important;
