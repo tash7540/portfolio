@@ -3,6 +3,6 @@ import {createPost} from '../controllers/posts.js';
 
 const router = express.Router();
 
-router.post('/', createPost);
+router.post('/sendMessage', createPost);
 
 export default router;

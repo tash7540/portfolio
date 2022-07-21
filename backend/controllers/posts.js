@@ -6,6 +6,8 @@ const router = express.Router();
 
 export const createPost = async (req, res) => {
     const {name,email,subject,message } = req.body;
+    console.log(name);
+    console.log(req.body);
     const newPostMessage = new PostMessage({ name,email,subject,message})
     try {
         await newPostMessage.save();
