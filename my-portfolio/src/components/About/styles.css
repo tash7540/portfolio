@@ -6,11 +6,10 @@
     grid-auto-rows: auto;
     height: auto;
     background-color: inherit;
-
   }
 .skillsGrid img {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
 }
 .skills{
   background-color: inherit;
@@ -21,26 +20,18 @@
   justify-content: center;
   align-items: center;
 }
-.skills-h1{
+.skills-form{
   font-size: calc(15px + 1vmin);
-margin-bottom:50px;
+  margin-bottom:50px;
 }
 .page-title{
   font-size: calc(60px + 1vmin);
 }
-
-
-.test{
-  color:black;
-  font-size: calc(15px + 1vmin);
-
-}
-.about-h1{
+.about-info{
   font-size: calc(15px + 1vmin);
   text-align: left !important;
-
 }
-.about-div{
+.about-form{
   margin:50px;
-  margin-bottom:200px;
+  margin-bottom:106px;
 }

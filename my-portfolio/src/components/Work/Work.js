@@ -15,10 +15,9 @@ function Work() {
 
           <img className='logo' src={nsfLogo} alt="NSFlogo" />
         </a>
-          <h1 className='education-uni'>National Science Foundation - Institute for Student-AI Teaming</h1>
+          <h1 className='job-name'>National Science Foundation - Institute for Student-AI Teaming</h1>
         </div>
         <h1 className='job-title'> Junior Software Developer</h1>
-
       </Row>
       <Row>
       <Col>
@@ -36,9 +35,9 @@ function Work() {
       <a href="https://www.colorado.edu/">
         <img className='logo' src={cuLogo} alt="CUlogo" />
       </a>
-        <h1 className='education-uni'>University of Colorado at Boulder</h1>
+        <h1 className='job-name'>University of Colorado at Boulder</h1>
       </div>
-      <h1 className='education-degree'> Research Assistant (Information Science Department)</h1>
+      <h1 className='job-title'> Research Assistant (Information Science Department)</h1>
 
       <Row>
       <Col>

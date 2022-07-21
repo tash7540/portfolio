@@ -2,6 +2,18 @@ page-title{
   font-size: calc(60px + 1vmin);
 
 }
+.job-name{
+  display:flex;
+  font-size: 30px;
+  margin-top:40px;
+}
+.job-title{
+  display:flex;
+  font-size: 25px;
+  margin-left:100px;
+  margin-bottom:30px;
+}
+
 .work-div{
   display: flex;
   justify-content: flex-start;
@@ -9,14 +21,7 @@ page-title{
   font-size: 30px;
 
 }
-.job-title{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  font-size: 25px;
-  margin-left:130px;
 
-}
 .logo {
   display: flex;
   pointer-events: none;
