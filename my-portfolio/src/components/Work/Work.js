@@ -23,10 +23,10 @@ function Work() {
       <Col>
         <div>
           <ul>
-              <li className='education-li'>● Incorporated hooks in Microsoft MakeCode in order to capture and log data of user’s activities.</li>
-              <li className='education-li'>● Captured ctivities such as blocks creation, deletion and modification as well as timestamps of activities.</li>
-              <li className='education-li'>● Built a backend REST API with Node JS to save data to MongoDB Atlas for analysis and visualization.</li>
-              <li className='education-li'>● Developed a web application using React JS in order to visualize user’s activities as a timeline.</li>
+              <li className='education-li'>● Incorporated hooks in Microsoft Make Code in order to capture and log data of user’s interactions.</li>
+              <li className='education-li'>● Captured interactions such as blocks creation, deletion and modification as well as timestamps of activities.</li>
+              <li className='education-li'>● Built a backend REST API with Node JS to store data to MongoDB Atlas for analysis and visualization.</li>
+              <li className='education-li'>● Developed a web application using React JS in order to visualize user’s interactions as a timeline.</li>
           </ul>
         </div>
         </Col>
@@ -37,14 +37,14 @@ function Work() {
       </a>
         <h1 className='job-name'>University of Colorado at Boulder</h1>
       </div>
-      <h1 className='job-title'> Research Assistant (Information Science Department)</h1>
+      <h1 className='job-title'> Research Assistant (COLUMN Lab)</h1>
 
       <Row>
       <Col>
         <div>
           <ul>
               <li className='education-li'>● Utilized PushShift API to collect public data such as posts and comments from Reddit.</li>
-              <li className='education-li'>● Supported a Python program which analyzes the raw data and generates genealogy data of subreddits.</li>
+              <li className='education-li'>● Supported a Python program which analyzes the raw data and generates data in form of nodes and edges.</li>
               <li className='education-li'>● Generated a genealogy graph of reddit communities using Gephi.</li>
           </ul>
         </div>

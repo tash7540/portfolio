@@ -17,6 +17,13 @@
   margin-right:10px;
 
 }
+.Form-group-fakeemail{
+  width:0px;
+  height:0px;
+  margin :0px;
+  margin-right:0px;
+
+}
 .Form-group-email{
   width:290px;
   height:20px;
@@ -50,7 +57,7 @@
     margin-left:160px;
 
     margin-top:30px;
-    margin-bottom:56px;
+    margin-bottom:53px;
   }
   button-form:hover {
       background-color:#A9A9A9 !important;
